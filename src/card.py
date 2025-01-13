@@ -11,6 +11,6 @@ class Card:
             self.money += money
 
     def withdraw(self, money):
-        if self.money > 0 and self.money <= money:
+        if self.money > 0 and self.money >= money:
             self.money -= money
 
